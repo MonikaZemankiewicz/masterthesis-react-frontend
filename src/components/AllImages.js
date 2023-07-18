@@ -4,7 +4,7 @@ import ImagesList from "./ImagesList";
 const AllImages = () => {
   const [pictures, setPictures] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:8000/api/images/")
+    fetch("https://monikareactdjango.pythonanywhere.com/api/images/")
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
