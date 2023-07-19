@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../components/Layout";
+import HeroImg from "../assets/images/hero-img.jpg";
 
 const About = () => {
   return (
@@ -23,7 +23,7 @@ const About = () => {
             contact
           </a>
         </article>
-        <img src="../assets/images/1.jpg" alt="about-us-image" />
+        <img src={HeroImg} alt="about-us-image" />
       </section>
     </main>
   );

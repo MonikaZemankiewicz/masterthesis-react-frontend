@@ -7,6 +7,7 @@ const ImagesList = ({ pictures = [] }) => {
         return (
           <div key={picture.id} className="recipe">
             <img
+              loading="lazy"
               src={picture.image}
               className="recipe-img"
               alt={picture.name}
